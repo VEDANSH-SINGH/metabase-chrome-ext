@@ -159,6 +159,7 @@ function setupElements() {
     }
   }
 
+
   function setupErrorExplanationElements() {
     var iconWarningElement = document.querySelector('svg.Icon.Icon-warning');
     var existingDatabaseErrorButtonElement = document.getElementById(getComponentIdFromVariable({databaseErrorButtonElement}));
